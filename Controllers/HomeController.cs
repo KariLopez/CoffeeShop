@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CafeInventory.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -24,6 +25,15 @@ namespace CafeInventory.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+        public ActionResult Registration()
+        {
+            return View();
+        }
+        public ActionResult Welcome(User u)
+        {
+            ViewBag.Welcome = u.firstName;
             return View();
         }
     }

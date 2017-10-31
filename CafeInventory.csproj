@@ -173,6 +173,7 @@
     <Compile Include="Models\CoffeeItem.cs">
       <DependentUpon>CoffeeInventory.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +235,8 @@
     <Content Include="Views\CoffeeItems\Details.cshtml" />
     <Content Include="Views\CoffeeItems\Edit.cshtml" />
     <Content Include="Views\CoffeeItems\Index.cshtml" />
+    <Content Include="Views\Home\Registration.cshtml" />
+    <Content Include="Views\Home\Welcome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

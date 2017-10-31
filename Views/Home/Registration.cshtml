@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="Welcome" method="post">
+        First name:<br>
+        <input type="text" name="firstName" value="" maxlength="20" required /><br>
+        Last name:<br>
+        <input type="text" name="lastName" value="" maxlength="20" required /><br><br>
+        Email:<br>
+        <input type="email" name="email" value="" required /><br><br>
+        Phone(xxx-xxx-xxxx):<br>
+        <input type="tel" name="phone" value="" pattern="^\d{3}-\d{3}-\d{4}$" required /><br><br>
+        Create Your Password:<br />
+        <input type="text" name="password" value="" pattern=".{3,}" required title="must include at least 3 characters" /><br /><br />
+        What's your favorite kind of coffee:<br>
+        <input type="checkbox" name="coffee type" value="Mocha" />Mocha<br><br>
+        <input type="checkbox" name="coffee type" value="Latte" />Latte<br><br>
+        <input type="checkbox" name="coffee type" value="Americano" />Americano<br><br>
+        <input type="checkbox" name="coffee type" value="Cubano" />Cubano<br><br>
+        <input type="checkbox" name="coffee type" value="Black Coffee for me" />Black Coffee for me<br><br>
+
+
+        <input type="submit" value="submit" />
+    </form>
+</body>
+</html>
